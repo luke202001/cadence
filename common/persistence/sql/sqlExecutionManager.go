@@ -262,7 +262,7 @@ func (m *sqlExecutionManager) GetWorkflowExecution(
 		LastFirstEventID:                   info.GetLastFirstEventID(),
 		LastProcessedEvent:                 info.GetLastProcessedEvent(),
 		StartTimestamp:                     info.GetStartTimestamp(),
-		LastUpdatedTimestamp:              	info.GetLastUpdatedTimestamp(),
+		LastUpdatedTimestamp:               info.GetLastUpdatedTimestamp(),
 		CreateRequestID:                    info.GetCreateRequestID(),
 		DecisionVersion:                    info.GetDecisionVersion(),
 		DecisionScheduleID:                 info.GetDecisionScheduleID(),
